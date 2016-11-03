@@ -1,0 +1,17 @@
+/**
+ * {{pkg.description}}
+ * @module {{pkg.name}}
+ * @version {{pkg.version}}
+ */
+
+'use strict'
+
+const amatch = require('./amatch')
+
+let lib = amatch.bind(this)
+
+Object.assign(lib, amatch, {
+  amatch
+})
+
+module.exports = lib

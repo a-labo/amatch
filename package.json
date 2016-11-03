@@ -1,0 +1,45 @@
+{
+  "name": "amatch",
+  "version": "1.0.0",
+  "description": "Namespace string matcher",
+  "main": "lib",
+  "browser": "shim/browser",
+  "scripts": {
+    "test": "node ./ci/test.js",
+    "prepublish": "node ./ci/build.js && node ./ci/shim.js"
+  },
+  "repository": "a-labo/amatch",
+  "keywords": [
+    "Matcher"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinishi@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-labo/amatch/issues"
+  },
+  "homepage": "https://github.com/a-labo/amatch#readme",
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "ababel": "^1.1.12",
+    "ababel-es2015": "^1.0.8",
+    "amocha": "^1.0.16",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-reporting": "^3.0.2",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^5.0.20",
+    "ape-updating": "^4.0.5",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
